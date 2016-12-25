@@ -1,25 +1,30 @@
 {
-  "name": "pixels2ascii",
-  "version": "0.0.1",
-  "description": "Takes images and outputs ASCII shaded strings for each line",
+  "name": "pixels2text",
+  "version": "1.0.0",
+  "description": "Takes images and outputs shaded text blocks as strings for each line, to store in a JavaScript Object",
   "main": "index.js",
-  "repository": "git@github.com:Superpencil/pixels2ascii.git",
+  "repository": "git@github.com:Superpencil/pixels2text.git",
   "scripts": {
-    "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "webpack-dev-server --env development",
+    "build": "webpack --env production",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Pascal Pixel <pascal@superpencil.com>",
   "license": "MIT",
   "devDependencies": {
-    "babel-core": "^6.20.0",
+    "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
     "babel-preset-es2015": "^6.18.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-0": "^6.16.0",
-    "webpack": "^1.14.0",
-    "webpack-dev-server": "^1.16.2"
+    "gh-pages": "^0.12.0",
+    "path": "^0.12.7",
+    "webpack": "2.2.0-rc.2",
+    "webpack-dev-server": "2.2.0-rc.0",
+    "webpack-merge": "^1.1.1"
   },
   "dependencies": {
-    "react": "^15.4.0",
+    "react": "^15.4.1",
     "react-dom": "^15.4.1"
   }
 }
