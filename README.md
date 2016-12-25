@@ -1,6 +1,9 @@
 # pixels2text
 Takes images and outputs ASCII shaded strings for each line.
 
+## Github Pages hosted demo
+Here: [https://superpencil.github.io/pixels2text/](https://superpencil.github.io/pixels2text/)
+
 ## Usage
 - `npm install`
 - `npm start`
