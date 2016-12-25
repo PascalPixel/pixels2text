@@ -5,26 +5,37 @@
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport" />
     <meta content="ie=edge" http-equiv="x-ua-compatible" />
     <title>pixels2text by Superpencil</title>
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <style>
-      html,
+      @font-face {
+        font-family: 'Input Sans';
+        src: url('InputSans-Regular.woff');
+        font-weight: 400;
+        font-style: normal;
+      }
       body {
-        font-family: 'Inconsolata', monospace;
+        zoom: 400%;
+        font-family: 'Input Sans', monospace;
+        background: #2b2e32;
+        color: #C6CDD6;
         font-size: 1px;
-        line-height: 1;
-        letter-spacing: 0.40px;
-        background: #C6CDD6;
-        color: #2b2e32;
       }
       img {
         display: none;
       }
+      canvas {
+        image-rendering: pixelated;
+      }
+      .float {
+        margin-left: 5px;
+        float: left;
+      }
       #target,
       #result,
       #resultColor {
-        float: left;
-        background: white;
-        margin-right: 10px;
+        line-height: 1;
+        letter-spacing: 0px;
+        background: #C6CDD6;
+        color: #2b2e32;
       }
     </style>
   </head>
