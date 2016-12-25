@@ -76,7 +76,7 @@ class Pixels2Text extends React.Component {
     return (
       <div>
         <div className='float'>
-          <h1>Original Image:</h1>
+          <h5>Original Image:</h5>
           <img
             id='source'
             src={this.state.source}
@@ -86,11 +86,11 @@ class Pixels2Text extends React.Component {
           <canvas id='target' />
         </div>
         <div className='float'>
-          <h1>Shaded Blocks:</h1>
+          <h5>Shaded Blocks:</h5>
           <div id='result'>{this.state.imageString}</div>
         </div>
         <div className='float'>
-          <h1>Color Blocks:</h1>
+          <h5>Color Blocks:</h5>
           <div id='resultColor'>
             {this.state.imageStringColor.map((linePrint, linePrintIndex) => {
               return (
