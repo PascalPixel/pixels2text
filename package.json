@@ -1,6 +1,6 @@
 {
   "name": "pixels2text",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Takes images and outputs shaded text blocks as strings for each line, to store in a JavaScript Object",
   "main": "index.js",
   "repository": "git@github.com:Superpencil/pixels2text.git",

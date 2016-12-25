@@ -1,6 +1,6 @@
 import React from 'react'
 
-class PixelsASCII extends React.Component {
+class Pixels2Text extends React.Component {
   constructor (props) {
     super(props)
 
@@ -103,4 +103,4 @@ class PixelsASCII extends React.Component {
   }
 }
 
-export default PixelsASCII
+export default Pixels2Text

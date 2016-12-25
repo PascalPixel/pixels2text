@@ -1,11 +1,11 @@
-# pixels2ascii
+# pixels2text
 Takes images and outputs ASCII shaded strings for each line.
 
 ## Usage
 - `npm install`
 - `npm start`
 - Go to `localhost:8080`
-- In `pixels2ascii.js` change the `source` on line `60` and manually put the width and height you want on line `62` and `63`
+- In `pixels2text.js` change the `source` on line `60` and manually put the width and height you want on line `62` and `63`
 
 ## Example output
 ```js

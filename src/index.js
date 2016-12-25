@@ -1,5 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import PixelsASCII from './PixelsASCII'
+import Pixels2Text from './Pixels2Text'
 
-ReactDOM.render(<PixelsASCII />, document.getElementById('pixels2ascii'))
+ReactDOM.render(<Pixels2Text />, document.getElementById('pixels2text'))
